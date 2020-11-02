@@ -1,0 +1,9 @@
+:8443 {
+ templates
+ tls /srv/certs/example_wildcard_chain.pem /srv/certs/example_wildcard.key
+ root /srv/publics
+}
+:8080 {
+ templates
+ root /srv/public
+}
